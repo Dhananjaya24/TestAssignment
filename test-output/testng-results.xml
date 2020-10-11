@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35592" started-at="2020-10-10T21:18:26Z" finished-at="2020-10-10T21:19:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35592" started-at="2020-10-10T21:18:26Z" finished-at="2020-10-10T21:19:02Z">
+      <class name="apptus.RegisterStation">
+        <test-method status="PASS" signature="verifyRegisterWeatherWithAPIKey()[pri:0, instance:apptus.RegisterStation@380fb434]" name="verifyRegisterWeatherWithAPIKey" duration-ms="10767" started-at="2020-10-11T02:48:42Z" finished-at="2020-10-11T02:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWeatherWithAPIKey -->
+        <test-method status="PASS" signature="verifyRegisterWeatherWithoutAPIKey()[pri:0, instance:apptus.RegisterStation@380fb434]" name="verifyRegisterWeatherWithoutAPIKey" duration-ms="687" started-at="2020-10-11T02:48:52Z" finished-at="2020-10-11T02:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWeatherWithoutAPIKey -->
+      </class> <!-- apptus.RegisterStation -->
+      <class name="apptus.AddItemsToCart">
+        <test-method status="PASS" signature="setup()[pri:0, instance:apptus.AddItemsToCart@21bcffb5]" name="setup" is-config="true" duration-ms="15644" started-at="2020-10-11T02:48:26Z" finished-at="2020-10-11T02:48:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyAddingItemsIntoCart()[pri:0, instance:apptus.AddItemsToCart@21bcffb5]" name="verifyAddingItemsIntoCart" duration-ms="18690" started-at="2020-10-11T02:48:42Z" finished-at="2020-10-11T02:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingItemsIntoCart -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:apptus.AddItemsToCart@21bcffb5]" name="closeBrowser" is-config="true" duration-ms="1187" started-at="2020-10-11T02:49:00Z" finished-at="2020-10-11T02:49:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- apptus.AddItemsToCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
